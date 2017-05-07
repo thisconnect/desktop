@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "cra-desktop",
   "version": "0.1.0",
   "private": true,
   "main": "main.js",
@@ -24,6 +24,7 @@
     "electron-start": "electron .",
     "electron-build": "electron-packager ./ --overwrite --out ./dist",
     "eject": "react-scripts eject",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "npm test -- --coverage"
   }
 }

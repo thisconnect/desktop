@@ -33,6 +33,9 @@ function openWindow(){
     main.on('closed', () => {
       win = null
     })
+    if (dev){
+      main.webContents.openDevTools()
+    }
     return main
   })
 }
