@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
-    "electron": "^1.6.6",
+    "electron": "^1.7.1",
     "electron-packager": "^8.7.0",
     "react-scripts": "0.9.5",
     "wait-on": "^2.0.2"
