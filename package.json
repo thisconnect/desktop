@@ -13,7 +13,7 @@
     "concurrently": "^3.4.0",
     "electron": "^1.7.1",
     "electron-packager": "^8.7.0",
-    "react-scripts": "0.9.5",
+    "react-scripts": "1.0.1",
     "wait-on": "^2.0.2"
   },
   "scripts": {
