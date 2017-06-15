@@ -5,15 +5,15 @@ let win = null
 
 app.on('ready', () => {
   openWindow()
-  .then(browser => win = browser)
-  .catch(console.error)
+    .then(browser => win = browser)
+    .catch(console.error)
 })
 
 app.on('activate', () => {
   if (win === null) {
     openWindow()
-    .then(browser => win = browser)
-    .catch(console.error)
+      .then(browser => win = browser)
+      .catch(console.error)
   }
 })
 
@@ -27,15 +27,15 @@ function openWindow(){
   return new Promise((resolve, reject) => {
     resolve(new BrowserWindow({ width: 800, height: 600 }))
   })
-  .then(main => {
-    const loc = dev ? 'http://localhost:3000' : `file://${__dirname}/build/index.html`
-    main.loadURL(loc)
-    main.on('closed', () => {
-      win = null
+    .then(main => {
+      const loc = dev ? 'http://localhost:3000' : `file://${__dirname}/build/index.html`
+      main.loadURL(loc)
+      main.on('closed', () => {
+        win = null
+      })
+      if (dev){
+        main.webContents.openDevTools()
+      }
+      return main
     })
-    if (dev){
-      main.webContents.openDevTools()
-    }
-    return main
-  })
 }
