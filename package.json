@@ -13,8 +13,6 @@
     "concurrently": "^3.4.0",
     "electron": "^1.6.8",
     "electron-packager": "^8.7.1",
-    "eslint": "^4.0.0",
-    "eslint-config-react-app": "^1.0.4",
     "react-scripts": "^1.0.7",
     "wait-on": "^2.0.2"
   },
@@ -27,7 +25,6 @@
     "electron-build": "electron-packager ./ --overwrite --out ./dist",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
-    "lint": "eslint src",
     "coverage": "npm test -- --coverage"
   }
 }
