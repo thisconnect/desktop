@@ -20,6 +20,7 @@ jobs:
       - run: npm install
       - save-cache: *save-cache
       - run: npm test
+      - run: npm run build
   test-node-8:
     working_directory: ~/cra-8
     docker:
@@ -30,6 +31,7 @@ jobs:
       - run: npm install
       - save-cache: *save-cache
       - run: npm test
+      - run: npm run build
 
 workflows:
   version: 2
