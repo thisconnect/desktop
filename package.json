@@ -12,7 +12,7 @@
   "devDependencies": {
     "concurrently": "^3.5.0",
     "electron": "^1.8.2-beta.1",
-    "electron-packager": "^9.1.0",
+    "electron-packager": "^10.1.0",
     "react-scripts": "^1.0.16",
     "wait-on": "^2.0.2"
   },
