@@ -1,3 +1,5 @@
+version: 2.0
+
 aliases:
   - &restore-cache
     keys:
@@ -8,7 +10,6 @@ aliases:
       - node_modules
     key: dependencies-{{ .Branch }}-{{ checksum "package.json" }}
 
-version: 2
 jobs:
   "node-6":
     working_directory: ~/cra-6
