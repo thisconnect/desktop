@@ -9,9 +9,12 @@ jobs:
       - run: node --version
       - run: npm --version
       - run: npm install
-      - run: |
-        npm test
-        npm run build
+      - run:
+          name: npm test
+          command: npm test
+      - run:
+          name: npm run build
+          command: npm run build
   "node-8":
     working_directory: ~/cra-8
     docker:
@@ -21,9 +24,12 @@ jobs:
       - run: node --version
       - run: npm --version
       - run: npm install
-      - run: |
-        npm test
-        npm run build
+      - run:
+          name: npm test
+          command: npm test
+      - run:
+          name: npm run build
+          command: npm run build
 
 workflows:
   version: 2
