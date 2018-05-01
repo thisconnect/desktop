@@ -1,14 +1,3 @@
-
-aliases:
-  - &restore-cache
-    keys:
-      - dependencies-{{ .Branch }}-{{ checksum "package.json" }}
-
-  - &save-cache
-    paths:
-      - node_modules
-    key: dependencies-{{ .Branch }}-{{ checksum "package.json" }}
-
 version: 2.0
 jobs:
   "node-6":
@@ -17,11 +6,9 @@ jobs:
       - image: circleci/node:6
     steps:
       - checkout
-      - restore-cache: *restore-cache
       - run: node --version
       - run: npm --version
       - run: npm install
-      - save-cache: *save-cache
       - run: |
         npm test
         npm run build
@@ -31,11 +18,9 @@ jobs:
       - image: circleci/node:8
     steps:
       - checkout
-      - restore-cache: *restore-cache
       - run: node --version
       - run: npm --version
       - run: npm install
-      - save-cache: *save-cache
       - run: |
         npm test
         npm run build
