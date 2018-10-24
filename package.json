@@ -25,7 +25,8 @@
     "electron-build": "electron-packager ./ --overwrite --out ./dist",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
-    "coverage": "npm test -- --coverage"
+    "coverage": "npm test -- --coverage",
+    "browserslist": "browserslist"
   },
   "browserslist": {
     "development": [
