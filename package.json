@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "concurrently": "^4.0.0",
-    "electron": "^3.0.0",
-    "electron-packager": "^12.2.0",
-    "react-scripts": "^2.0.4",
+    "electron": "^4.0.4",
+    "electron-packager": "^13.0.1",
+    "react-scripts": "^2.0.5",
     "wait-on": "^3.1.0"
   },
   "scripts": {
@@ -28,17 +28,7 @@
     "coverage": "npm test -- --coverage",
     "browserslist": "browserslist"
   },
-  "browserslist": {
-    "development": [
-      "last 2 chrome versions",
-      "last 2 firefox versions",
-      "last 2 edge versions"
-    ],
-    "production": [
-      ">1%",
-      "last 4 versions",
-      "Firefox ESR",
-      "not ie < 11"
-    ]
-  }
+  "browserslist": [
+    "last 4 chrome versions"
+  ]
 }
