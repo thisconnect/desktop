@@ -7,7 +7,7 @@
   "dependencies": {
     "electron-is-dev": "^1.0.1",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "concurrently": "^4.0.0",
