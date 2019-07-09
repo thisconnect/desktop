@@ -14,7 +14,7 @@
     "electron": "^5.0.6",
     "electron-packager": "^14.0.1",
     "react-scripts": "^3.0.1",
-    "terser": "^4.1.0",
+    "terser": "^4.1.2",
     "wait-on": "^3.1.0"
   },
   "scripts": {
