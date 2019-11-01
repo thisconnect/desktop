@@ -23,7 +23,7 @@
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",
     "electron-start": "electron .",
-    "electron-build": "electron-packager ./ --overwrite --out ./dist",
+    "electron-build": "electron-packager ./ --overwrite --out ./dist --asar",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
     "coverage": "npm test -- --coverage",
