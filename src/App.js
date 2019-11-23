@@ -21,16 +21,19 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>
-            Welcome to React
+            Welcome to React<br />
             <small>{process.env.NODE_ENV}</small>
           </h2>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+          {this.state.data ? `fetched ${this.state.data.length} items from data.json` : 'no data.json'}
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          {this.state.data && `fetched ${this.state.data.length} items from data.json`}
-        </p>
       </div>
     )
   }
