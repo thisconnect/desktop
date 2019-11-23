@@ -1,5 +1,7 @@
 # Create React App for the desktop with Electron
 
+https://create-react-app.dev/docs/getting-started
+
 
 [![Build Status](https://img.shields.io/circleci/project/github/thisconnect/cra-desktop.svg?style=flat-square&maxAge=1800)](https://circleci.com/gh/thisconnect/cra-desktop)
 
