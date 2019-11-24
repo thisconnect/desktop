@@ -5,17 +5,17 @@
   "main": "main.js",
   "homepage": "./",
   "dependencies": {
-    "electron-is-dev": "^1.1.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "electron-is-dev": "1.1.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
-    "concurrently": "^5.0.0",
-    "electron": "^7.1.2",
+    "concurrently": "5.0.0",
+    "electron": "7.1.2",
     "electron-packager": "14.1.1",
-    "react-scripts": "^3.2.0",
+    "react-scripts": "3.2.0",
     "terser": "4.4.0",
-    "wait-on": "^3.3.0"
+    "wait-on": "3.3.0"
   },
   "scripts": {
     "start": "concurrently 'npm run react-start' 'wait-on http://localhost:3000/ && npm run electron-start'",
@@ -29,7 +29,46 @@
     "coverage": "npm test -- --coverage",
     "browserslist": "browserslist"
   },
-  "browserslist": [
-    "last 4 chrome versions"
-  ]
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "comma-dangle": [
+        "warn",
+        "never"
+      ],
+      "indent": [
+        "warn",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "warn",
+        "unix"
+      ],
+      "no-console": "off",
+      "quotes": [
+        "warn",
+        "single",
+        {
+          "allowTemplateLiterals": true
+        }
+      ],
+      "semi": [
+        "warn",
+        "never"
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      "last 4 chrome versions"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
