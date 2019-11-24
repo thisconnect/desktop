@@ -14,6 +14,7 @@
     "electron": "7.1.2",
     "electron-packager": "14.1.1",
     "react-scripts": "3.2.0",
+    "source-map-explorer": "^2.1.1",
     "terser": "4.4.0",
     "wait-on": "3.3.0"
   },
@@ -25,6 +26,7 @@
     "electron-start": "electron .",
     "electron-build": "electron-packager ./ --overwrite --out ./dist --asar",
     "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test": "react-scripts test --env=jsdom",
     "coverage": "npm test -- --coverage",
     "browserslist": "browserslist"
