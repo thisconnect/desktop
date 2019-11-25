@@ -5,7 +5,14 @@ https://create-react-app.dev/docs/getting-started
 
 [![Build Status](https://img.shields.io/circleci/project/github/thisconnect/cra-desktop.svg?style=flat-square&maxAge=1800)](https://circleci.com/gh/thisconnect/cra-desktop)
 
-### Note: this repo is an instantiated unejected create-react-app
+### Note: 
+
+#### env files only for react
+dot env files have no impact on the main electron process (yet).
+https://create-react-app.dev/docs/adding-custom-environment-variables/
+
+
+#### this repo is an instantiated unejected create-react-app
 
 - https://github.com/facebookincubator/create-react-app
 - https://github.com/facebookincubator/create-react-app/pull/1718
