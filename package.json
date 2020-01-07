@@ -14,7 +14,7 @@
     "electron": "7.1.7",
     "electron-packager": "14.1.1",
     "react-scripts": "3.3.0",
-    "source-map-explorer": "^2.2.0",
+    "source-map-explorer": "^2.2.1",
     "terser": "4.5.1",
     "wait-on": "3.3.0"
   },
