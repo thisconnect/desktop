@@ -13,8 +13,8 @@
     "concurrently": "5.1.0",
     "electron": "8.0.0",
     "electron-packager": "14.2.0",
-    "react-scripts": "3.3.0",
-    "source-map-explorer": "^2.2.2",
+    "react-scripts": "3.3.1",
+    "source-map-explorer": "2.2.2",
     "terser": "4.6.3",
     "wait-on": "4.0.0"
   },
