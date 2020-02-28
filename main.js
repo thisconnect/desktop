@@ -65,11 +65,12 @@ function openWindow(){
     resolve(new BrowserWindow({
       width: 800,
       height: 600,
-      // webPreferences: {
-      //   contextIsolation: true,
-      //   preload: path.join(app.getAppPath(), 'preload.js'),
-      //   webSecurity: false
-      // }
+      webPreferences: {
+        // contextIsolation: true,
+        enableRemoteModule: false
+        // preload: path.join(app.getAppPath(), 'preload.js'),
+        // webSecurity: false
+      }
     }))
   })
     .then(main => {
