@@ -10,7 +10,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "concurrently": "5.1.0",
+    "concurrently": "5.2.0",
     "electron": "8.2.3",
     "electron-packager": "14.2.1",
     "react-scripts": "3.4.1",
