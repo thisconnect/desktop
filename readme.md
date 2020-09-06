@@ -3,7 +3,9 @@
 https://create-react-app.dev/docs/getting-started
 
 
-[![Build Status](https://img.shields.io/circleci/project/github/thisconnect/cra-desktop.svg?style=flat-square&maxAge=1800)](https://circleci.com/gh/thisconnect/cra-desktop)
+[![Build Status](https://img.shields.io/circleci/project/github/thisconnect/desktop.svg?style=flat-square&maxAge=1800)](https://circleci.com/gh/thisconnect/desktop)
+
+[![Appveyor Build Status](https://img.shields.io/appveyor/ci/thisconnect/desktop/master.svg?style=flat-square&maxAge=1800&logo=appveyor)](https://ci.appveyor.com/project/thisconnect/desktop)
 
 ### Note: 
 
