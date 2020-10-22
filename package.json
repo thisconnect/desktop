@@ -6,8 +6,8 @@
   "homepage": "./",
   "dependencies": {
     "electron-is-dev": "1.2.0",
-    "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react": "17.0.0",
+    "react-dom": "17.0.0"
   },
   "devDependencies": {
     "concurrently": "5.3.0",
