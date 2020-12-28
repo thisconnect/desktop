@@ -16,7 +16,7 @@
     "react-scripts": "3.4.3",
     "source-map-explorer": "2.5.0",
     "terser": "5.5.0",
-    "wait-on": "5.2.0"
+    "wait-on": "5.2.1"
   },
   "scripts": {
     "start": "concurrently 'npm run react-start' 'wait-on http://localhost:3000/ && npm run electron-start'",
