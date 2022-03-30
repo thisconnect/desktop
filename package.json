@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "concurrently": "7.0.0",
-    "electron": "17.2.0",
+    "electron": "18.0.0",
     "electron-packager": "15.4.0",
     "react-scripts": "3.4.3",
     "source-map-explorer": "2.5.2",
